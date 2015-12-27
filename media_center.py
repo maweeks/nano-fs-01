@@ -2,7 +2,7 @@ import fresh_tomatoes
 import media
 
 # movieX = media.Movie("Name", "Storyline", "Poster Link", "Trailer Link")
-# NOQA
+# Generate the movie variables
 avengers_aou = media.Movie("Avengers: Age of Ultron", 141, 2015,
                            "Another epic adventure with Tony Stark and crew.",
                            "http://www.hollywoodreporter.com/sites/default/files/custom/Blog_Images/avengers-movie-poster-1.jpg",  # NOQA
@@ -34,7 +34,9 @@ star_wars_vii = media.Movie("Star Wars: The Force Awakens", 135, 2015,
                             "http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/10/star-wars-force-awakens-official-poster.jpg",  # NOQA
                             "https://www.youtube.com/watch?v=sGbxmsDFVnE")
 
+# Put all the individual movie variables into an array of movie variables.
 movies = [avengers_aou, home, inside_out, jurassic_world,
           mission_impossilbe_rn, star_wars_vii]
 
+#
 fresh_tomatoes.open_movies_page(movies)

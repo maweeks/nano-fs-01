@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Mad's Movie Trailers!</title>
+    <title>Matt's Movie Trailers!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -20,20 +20,11 @@ main_page_head = '''
         body {
             padding-top: 80px;
         }
-        #trailer .modal-dialog {
-            margin-top: 200px;
-            width: 640px;
-            height: 480px;
-        }
         .hanging-close {
             position: absolute;
             top: -12px;
             right: -12px;
             z-index: 9001;
-        }
-        #trailer-video {
-            width: 100%;
-            height: 100%;
         }
         .movie-tile {
             margin-bottom: 20px;
@@ -42,6 +33,9 @@ main_page_head = '''
         .movie-tile:hover {
             background-color: #EEE;
             cursor: pointer;
+        }
+        .navbar-inverse {
+            background-image: linear-gradient(to bottom,#111,#0af 150%);
         }
         .scale-media {
             padding-bottom: 56.25%;
@@ -55,6 +49,15 @@ main_page_head = '''
             left: 0;
             top: 0;
             background-color: white;
+        }
+        #trailer .modal-dialog {
+            margin-top: 200px;
+            width: 640px;
+            height: 480px;
+        }
+        #trailer-video {
+            width: 100%;
+            height: 100%;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -107,7 +110,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Mad's Movie Trailers</a>
+            <a class="navbar-brand" href="#">Matt's Movie Trailers</a>
           </div>
         </div>
       </div>
