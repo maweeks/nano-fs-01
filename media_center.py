@@ -38,5 +38,5 @@ star_wars_vii = media.Movie("Star Wars: The Force Awakens", 135, 2015,
 movies = [avengers_aou, home, inside_out, jurassic_world,
           mission_impossilbe_rn, star_wars_vii]
 
-#
+# Generate the movie page using the movies list previously generated.
 fresh_tomatoes.open_movies_page(movies)

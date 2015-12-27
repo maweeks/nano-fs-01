@@ -56,5 +56,5 @@ class TvShow(Video):
 
     # Initialise a movie object.
     def __init__(self, tvshow_title, tvshow_duration):
-        Video(self, tvshow_title, tvshow_duration)
         # Initialise a video object to inherit from.
+        Video(self, tvshow_title, tvshow_duration)

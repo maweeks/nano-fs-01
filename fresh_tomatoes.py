@@ -37,6 +37,11 @@ main_page_head = '''
         .navbar-inverse {
             background-image: linear-gradient(to bottom,#111,#0af 150%);
         }
+        .navbar-inverse .navbar-brand {
+            color: #eee;
+            font-weight: bold;
+            font-size: 20px;
+        }
         .scale-media {
             padding-bottom: 56.25%;
             position: relative;
