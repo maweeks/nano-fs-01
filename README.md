@@ -1,8 +1,7 @@
 # Matt's Movie Trailers
-=======================
-## Forked from ud036_StarterCode
+_Forked from adarsh0806/ud036_StarterCode_
 
-### Setup (on Mac)
+### Setup (on Mac):
 
 1. Clone this repository.
 2. Open the Terminal application.
