@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Video():
     """Docs and stuff..."""
     def __init__(self, title, duration):
@@ -9,12 +10,14 @@ class Video():
     def show_info(self):
         print("Title: " + self.title)
 
+
 class Movie(Video):
     """This is my documentation..."""
 
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
-    def __init__(self, movie_title, movie_duration, movie_year, movie_storyline, movie_poster, movie_trailer):
+    def __init__(self, movie_title, movie_duration, movie_year,
+                 movie_storyline, movie_poster, movie_trailer):
         Video.__init__(self, movie_title, movie_duration)
         self.year = movie_year
         self.storyline = movie_storyline
