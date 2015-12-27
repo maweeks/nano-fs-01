@@ -15,9 +15,12 @@ mission_impossilbe_rogue_nation = media.Movie("Mission Impossible - Rogue Nation
 star_wars_vii = media.Movie("Star Wars: The Force Awakens", "More galactic warfare with lightsabers and storm troopers that can't shoot straight.", "http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/10/star-wars-force-awakens-official-poster.jpg", "https://www.youtube.com/watch?v=sGbxmsDFVnE")
 
 # print(inside_out.storyline);
-
 # home.show_trailer();
+# print(media.Movie.VALID_RATINGS)
+# print(media.Movie.__doc__)
+# print(media.Movie.__name__)
+# print(media.Movie.__module__)
 
 movies = [avengers_age_of_ultron, home, inside_out, jurassic_world, mission_impossilbe_rogue_nation, star_wars_vii]
 
-fresh_tomatoes.open_movies_page(movies)
+# fresh_tomatoes.open_movies_page(movies)

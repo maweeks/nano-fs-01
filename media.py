@@ -1,7 +1,8 @@
 import webbrowser
 
 class Movie():
-    valid_ratings=["G","PG","PG-13","R"]
+    """This is my documentation..."""
+    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     def __init__(self, movie_title, movie_storyline, movie_poster, movie_trailer):
         self.title = movie_title
